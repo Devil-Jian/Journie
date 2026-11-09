@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Journie</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="shell"><main class="main">
+    <div class="search-wrap">
+      <div class="search-row">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="query" type="text" placeholder="输入期刊名称、简称或 ISSN" autocomplete="off" spellcheck="false" autofocus>
+        <button id="clear" class="clear-btn" title="清空搜索" aria-label="清空搜索">×</button>
+      </div>
+      <button id="searchBtn" class="search-btn">查找</button>
+    </div>
+    <div class="result-meta"><span>找到的期刊</span><span id="counter" aria-live="polite">0 条结果</span></div>
+    <section id="results" class="results" aria-label="期刊检索结果">
+      <div class="empty">正在加载期刊数据…</div>
+    </section>
+    <div id="more" class="more" hidden>只展示前 12 条，试试输入更完整的名称吧～</div>
+  </main></div>
+  <script src="popup.js"></script>
+</body>
+</html>
