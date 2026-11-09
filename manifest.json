@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Journie",
+  "version": "1.0.0",
+  "description": "Journie：轻巧可爱的期刊查询小助手，支持川大、JCR、中科院、CCF 分级和影响因子检索。",
+  "permissions": [],
+  "action": {
+    "default_title": "Journie",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
