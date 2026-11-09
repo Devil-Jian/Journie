@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "note": "仅为格式示例，非真实期刊信息"
+  },
+  "journals": [
+    {
+      "name": "EXAMPLE JOURNAL",
+      "abbreviation": "EXAMPLE J",
+      "issn": "1234-5678",
+      "eissn": "",
+      "aliases": [],
+      "issns": [],
+      "school": {
+        "grade": "B",
+        "subject": "工程技术",
+        "year": 2020
+      },
+      "jcr": [
+        {
+          "quartile": "Q1",
+          "impact_factor": 3
+        }
+      ],
+      "cas": [
+        {
+          "major": "1",
+          "is_top": false
+        }
+      ],
+      "ccf": [
+        {
+          "grade": "B"
+        }
+      ]
+    }
+  ]
+}
